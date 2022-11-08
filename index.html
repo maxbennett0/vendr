@@ -27,11 +27,21 @@
   </header>
   <main>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+      <section class="row text-center justify-content-center">
+        <section id="snacks" class="row justify-content-center">
+        </section>
+        <!-- STUB template -->
+        <!-- <div class="col-4 card p-2 m-3">
+          <h2 id="name">name</h2>
+          <h2 id="price">price</h2>
+          <button id="buyButton" class="btn btn-primary">buy snack</button>
+        </div> -->
+        <!--  -->
+        <div class="col-2 card p-2 mt-3">
+          <h2 id="money"></h2>
+          <button class="btn btn-primary" onclick="app.moneyController.addMoney()">add money</button>
         </div>
-      </div>
+      </section>
     </div>
   </main>
   <footer class="bg-dark text-light">
